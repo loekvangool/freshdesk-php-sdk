@@ -1,5 +1,5 @@
 {
-    "name": "mpclarkson/freshdesk-php-sdk",
+    "name": "supover/freshdesk-php-sdk",
     "description": "PHP SDK for the Freshdesk API (v2)",
     "type": "library",
     "homepage": "https://github.com/mpclarkson/freshdesk-php-sdk",
@@ -10,11 +10,16 @@
             "name": "Matthew Clarkson",
             "email": "mpclarkson@hilenium.com",
             "homepage": "http://mpclarkson.github.io/"
+        },
+        {
+            "name": "Khang Dinh",
+            "email": "khangvb@gmail.com",
+            "homepage": "https://vutbay.com/"
         }
     ],
     "require": {
-        "php": ">=5.5.0",
-        "guzzlehttp/guzzle": ">=4.0,<7.0"
+        "php": "^7.4",
+        "guzzlehttp/guzzle": "^7.5"
     },
     "require-dev": {
         "phpunit/phpunit": "4.8.*",
